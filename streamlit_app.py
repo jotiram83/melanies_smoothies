@@ -28,7 +28,7 @@ if ingredients_list:
     
     ingredients_string = ''
     for fruit_choosen in ingredients_list:
-        ingredients_string += fruit_choosen + ' 'SMOOTHIES.PUBLIC.MY_UPLOADED_FILES
+      #  ingredients_string += fruit_choosen + ' 'SMOOTHIES.PUBLIC.MY_UPLOADED_FILES
 
     my_insert_stmt = """ insert into smoothies.public.orders(ingredients,name_on_order)
             values ('""" + ingredients_string + """','"""+name_on_order+"""')"""
